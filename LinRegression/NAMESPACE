@@ -1,4 +1,1 @@
 exportPattern("^[[:alpha:]]+")
-export(LinRegression)
-import(methods)
-import(ggplot2)

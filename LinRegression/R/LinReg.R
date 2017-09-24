@@ -1,4 +1,4 @@
-#' LinearRegression
+#' LinReg
 #'
 #' @field formula formula. y ~ x_1 + x_2 + ... + x_n.
 #' @field data data.frame. 

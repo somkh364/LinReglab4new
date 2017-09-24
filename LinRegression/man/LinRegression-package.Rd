@@ -17,20 +17,19 @@ This Package contains th implementation of Linear Regression. In statistics the 
 }
 \Authors@R: c(
       person("Somaya", "Khoda Bakhsh", email = "somkh364@student.liu.se", role = "cre"),
- -    person("Thi", "Phalm", email = "Thiph169@student.liu.se", role = "aut"))
+      person("Thi", "Phalm", email = "Thiph169@student.liu.se", role = "aut"))
 
 \Maintainer: Somaya Khoda Bakhsh <somkh364@student.liu.se>
-}
+\Description: The lab constists of writing a package that is version controlled on github.com.
 \references{
 https://en.wikipedia.org/wiki/Linear_regression
 https://www.r-bloggers.com/simple-linear-regression-2/
 }
-Optionally other standard keywords, one per line, from file KEYWORDS in
-the R documentation directory
+
 \keyword{ package }
 \seealso{
-Optional links to other man pages, e.g.
-\code{\link[<pkg>:<pkg>-package]{<pkg>}}
+http://r-pkgs.had.co.nz/vignettes.html.
+http://r-pkgs.had.co.nz/vignettes.html#markdown.
 }
 \examples{
 linreg_mod <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length, data=iris)

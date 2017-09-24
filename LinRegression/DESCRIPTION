@@ -8,7 +8,8 @@ Authors@R: c(
     person("Thi", "Phalm", email = "Thiph169@student.liu.se", role = "aut"))
 Maintainer: Somaya <somkh364@student.liu.se>
 Description: This package handle multipal linear regressions.
-License: GPL-2
-Depends: R (>= 3.0.1), ggplot2
+License: CC0
+Encoding: UTF-8
+Depends: R (>= 2.10)
 LazyData: true
 RoxygenNote: 6.0.1
