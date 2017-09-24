@@ -4,7 +4,7 @@
 \name{linreg-class}
 \alias{linreg-class}
 \alias{linreg}
-\title{LinearRegression}
+\title{LinReg}
 \value{
 linReg
 }

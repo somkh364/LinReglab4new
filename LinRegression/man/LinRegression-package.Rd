@@ -32,5 +32,5 @@ http://r-pkgs.had.co.nz/vignettes.html.
 http://r-pkgs.had.co.nz/vignettes.html#markdown.
 }
 \examples{
-linreg(formula = Petal.Length ~ Sepal.Width + Sepal.Length, data = iris)
+linreg(formula = Petal.Length ˜ Sepal.Width + Sepal.Length, data = iris)
 }
