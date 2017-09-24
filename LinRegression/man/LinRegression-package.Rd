@@ -13,8 +13,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{LinRegression}
 \packageIndices{LinRegression}
-An overview of how to use the package, including the most important
-functions
+This Package contains th implementation of Linear Regression. In statistics the most widely used techniques is linear regression where we study the potential relationship between the variables.The relation between independent variable and dependent variable.
 }
 \Authors@R: c(
       person("Somaya", "Khoda Bakhsh", email = "somkh364@student.liu.se", role = "cre"),
@@ -34,5 +33,5 @@ Optional links to other man pages, e.g.
 }
 \examples{
 linreg_mod <- linreg$new(Petal.Length~Sepal.Width+Sepal.Length, data=iris)
-linreg_mod$summary()
+linreg_mod$summary() 
 }
